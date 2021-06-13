@@ -7,6 +7,7 @@ import {useEffect, useState} from "react";
 import {getCart, storeCart} from "./helper";
 import Cart from "./pages/Cart";
 import About from "./pages/About";
+import ContactUs from "./pages/ContactUs";
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
                         <Route path={"/"} component={Home} exact/>
                         <Route path={"/cart"} component={Cart} exact/>
                         <Route path={"/about"} component={About} exact/>
+                        <Route path={"/contact"} component={ContactUs} exact/>
                     </Switch>
                 </CartContext.Provider>
                 <Footer/>

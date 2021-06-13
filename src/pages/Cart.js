@@ -101,48 +101,65 @@ const Cart = () => {
                                                 <img className="h-16 rounded-full" src={product.image} alt=""/>
                                                 <span className="font-bold ml-4 w-48">{product.name}</span>
                                             </div>
-                                            <div>
+                                            <div className="flex justify-between">
                                                 <button onClick={() => {
                                                     decrement(product.id)
                                                 }}
-                                                        className="bg-yellow-500 px-4 py-2 rounded-full leading-none focus:outline-none">-
+                                                        style={{
+                                                            background: "url(/images/minus.svg) no-repeat",
+                                                            cursor: "pointer",
+                                                            border: "none",
+                                                            outline: "none",
+                                                            backgroundSize: "cover"
+                                                        }} className="px-4 py-2 leading-none focus:outline-none">
                                                 </button>
                                                 <b className="px-4">{getQty(product.id)}</b>
                                                 <button onClick={() => {
                                                     increment(product.id)
                                                 }}
-                                                        className="bg-yellow-500 px-4 py-2 rounded-full leading-none focus:outline-none">+
+                                                        style={{
+                                                            background: "url(/images/add.svg) no-repeat",
+                                                            cursor: "pointer",
+                                                            border: "none",
+                                                            outline: "none", backgroundSize: "cover"
+                                                        }} className="px-4 py-2 leading-none focus:outline-none">
                                                 </button>
                                             </div>
                                             <span>₹ {getSum(product.id, product.price)}</span>
                                             <button onClick={() => {
                                                 handleDelete(product.id)
-                                            }} className="bg-red-500 px-4 py-2 rounded-full leading-none text-white">
-                                                Delete
+                                            }} style={{
+                                                background: "url(/images/remove.svg) no-repeat",
+                                                cursor: "pointer",
+                                                border: "none",
+                                                outline: "none",
+                                                height:"2em",
+                                                backgroundSize: "cover"
+                                            }} className="px-4 py-2 leading-none focus:outline-none">
                                             </button>
                                         </div>
                                     </li>
                                 )
                             })
                         }
-                    </ul>
-                    <hr className="my-6"/>
-                    <div className="text-right">
-                        <b>Grand Total:</b> ₹ {total}
-                    </div>
-                    <div className="text-right mt-6">
-                        <button onClick={handleOrderNow}
-                                className="font-semibold bg-yellow-500 py-2 px-4 rounded inline-flex items-center"><svg className="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"
-                                                                                                   viewBox="0 0 20 20">
+                            </ul>
+                            <hr className="my-6"/>
+                            <div className="text-right">
+                            <b>Grand Total:</b> ₹ {total}
+                            </div>
+                            <div className="text-right mt-6">
+                            <button onClick={handleOrderNow}
+                            className="font-semibold bg-yellow-500 py-2 px-4 rounded inline-flex items-center"><svg className="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20">
                             <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
-                        </svg>
+                            </svg>
                             <span>Place Order</span>
-                        </button>
-                    </div>
-                </div>
+                            </button>
+                            </div>
+                            </div>
 
-            </div>
-    )
-}
+                            </div>
+                            )
+                        }
 
 export default Cart

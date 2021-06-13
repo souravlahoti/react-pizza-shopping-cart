@@ -11,7 +11,7 @@ const Navigation = () => {
                 <ul className="flex items-center">
                     <li className="ml-10 mt-2 text-lg"><Link to={"/"}>Home</Link></li>
                     <li className="ml-10 mt-2 text-lg"><Link to={"/about"}>About us</Link></li>
-                    <li className="ml-10 mt-2 text-lg"><Link to={"/"}>Contacts</Link></li>
+                    <li className="ml-10 mt-2 text-lg"><Link to={"/contact"}>Contacts</Link></li>
                     <li className="ml-10 mt-2 text-lg">
                         <div className="float-left mt-2"><span className="dot" /></div>
                         <Link to={"/"}>Daily 11am - 9pm</Link>
