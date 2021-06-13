@@ -50,7 +50,7 @@ $ npm install
 $ npm start
 
 # on the other tab run the tab run
-$ npn i g json-server
+$ npn install g json-server
 $ json-server -p 5000 --watch src/assets/db.json
 ```
 
