@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/GFHH0rk/pizza-1.jpg",
+      "name": "Buffalo Blue Cheese Chicken",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 13,
+      "foodType": "Medium"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/XYx8g87/image-26-6.jpg",
+      "name": "Sweet & Tangy Chicken",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 12.99,
+      "foodType": "Large"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/pQ1NfYH/image-26-3.jpg",
+      "name": "Jamaican \nJerk Veg",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 12.99,
+      "foodType": "Medium"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/CsTcbNk/image-26.jpg",
+      "name": "Aussie Barbeque Veg",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 12.99,
+      "foodType": "Medium"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/yRn2sGx/image-26-5.jpg",
+      "name": "Indi Tandoori Paneer",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 12.99,
+      "foodType": "Small"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/CsTcbNk/image-26.jpg",
+      "name": "African Saucy\nPeri Peri",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 11.99,
+      "foodType": "Medium"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/XYx8g87/image-26-6.jpg",
+      "name": "Chicken Ham Rolls ",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 12.99,
+      "foodType": "Large"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/GFHH0rk/pizza-1.jpg",
+      "name": "England Egg",
+      "starRating": 4.5,
+      "desc": "Mozzarella Cheeze, Buffalo blue sauce, and your choice of grilled chicken or crispy chicken fingers",
+      "price": 9.99,
+      "foodType": "Small"
+    }
+  ]
+}
